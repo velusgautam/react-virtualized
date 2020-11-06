@@ -1,5 +1,9 @@
 ## Changelog
 
+##### 9.23.0
+
+- 🐛 Fix circular dependency in react-virtualized ([velusgautam](https://github.com/velusgautam) - [#1609](https://github.com/bvaughn/react-virtualized/pull/1609))
+
 ##### 9.22.3
 
 - Add Trusted Types support ([shhnjk](https://github.com/shhnjk) - [#1614](https://github.com/bvaughn/react-virtualized/pull/1614))

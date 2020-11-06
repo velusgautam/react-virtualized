@@ -1,86 +1,15 @@
-[<img src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" alt="React virtualized" data-canonical-src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" width="330" height="100" />](http://bvaughn.github.io/react-virtualized/)
+# Cyclic Dependency Fixed Version of React Virtualized
 
-[![NPM version](https://img.shields.io/npm/v/react-virtualized.svg?style=flat)](https://www.npmjs.com/package/react-virtualized)
-![NPM license](https://img.shields.io/npm/l/react-virtualized.svg?style=flat)
-[![NPM total downloads](https://img.shields.io/npm/dt/react-virtualized.svg?style=flat)](https://npmcharts.com/compare/react-virtualized?minimal=true)
-[![NPM monthly downloads](https://img.shields.io/npm/dm/react-virtualized.svg?style=flat)](https://npmcharts.com/compare/react-virtualized?minimal=true)
-[![CircleCI](https://circleci.com/gh/bvaughn/react-virtualized/tree/master.svg?style=svg)](https://circleci.com/gh/bvaughn/react-virtualized/tree/master)
-[![Codecov badge](https://img.shields.io/codecov/c/github/bvaughn/react-virtualized/master.svg)](https://codecov.io/github/bvaughn/react-virtualized)
-[![OpenCollective](https://opencollective.com/react-virtualized/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/react-virtualized/sponsors/badge.svg)](#sponsors)
+### If you need original React Virtualized [Link](https://github.com/bvaughn/react-virtualized)
+
+[<img src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" alt="React virtualized" data-canonical-src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" width="330" height="100" />](https://velusgautam.github.io/react-virtualized/)
+
+[![NPM version](https://img.shields.io/npm/v/@velusgautam/react-virtualized.svg?style=flat)](https://www.npmjs.com/package/@velusgautam/react-virtualized)
+
+[![NPM total downloads](https://img.shields.io/npm/dt/@velusgautam/react-virtualized.svg?style=flat)](https://npmcharts.com/compare/@velusgautam/react-virtualized?minimal=true)
 
 React components for efficiently rendering large lists and tabular data.
-Check out [the demo](https://bvaughn.github.io/react-virtualized/) for some examples.
-
-### Sponsors
-
-The following wonderful companies have sponsored react-virtualized:
-
-<a href="https://www.treasuredata.com/"><img width="64" height="64" title="Treasure Data" src="https://cloud.githubusercontent.com/assets/29597/17391516/962647f8-59cb-11e6-83be-aa1bac299dd0.png"></a>
-<a href="https://developer.hpe.com/"><img width="64" height="64" title="HPE Dev" src="https://user-images.githubusercontent.com/5983843/37311298-1c3a711a-261d-11e8-9129-ef1589d7063f.png"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/9/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/10/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/10/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/11/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/11/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/12/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/12/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/13/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/13/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/14/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/14/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/15/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/15/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/16/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/16/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/17/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/17/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/18/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/18/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/19/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/19/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/20/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/20/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/21/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/21/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/22/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/22/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/23/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/23/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/24/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/24/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/25/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/25/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/26/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/26/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/27/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/27/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/28/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/28/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/sponsor/29/website" target="_blank"><img src="https://opencollective.com/react-virtualized/sponsor/29/avatar.svg"></a>
-
-[Learn more about becoming a sponsor!](https://opencollective.com/react-virtualized#sponsor)
-
-<a href="https://opencollective.com/react-virtualized/backer/0/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/1/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/2/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/3/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/4/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/5/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/6/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/7/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/8/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/9/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/10/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/11/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/11/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/12/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/12/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/13/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/13/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/14/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/14/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/15/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/15/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/16/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/16/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/17/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/17/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/18/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/18/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/19/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/19/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/20/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/20/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/21/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/21/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/22/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/23/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/23/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/24/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/24/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/25/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/25/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/26/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/26/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/27/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/27/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/28/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/28/avatar.svg"></a>
-<a href="https://opencollective.com/react-virtualized/backer/29/website" target="_blank"><img src="https://opencollective.com/react-virtualized/backer/29/avatar.svg"></a>
+Check out [the demo](https://velusgautam.github.io/react-virtualized/) for some examples.
 
 ## A word about `react-window`
 
@@ -91,7 +20,7 @@ If you're considering adding `react-virtualized` to a project, take a look at [`
 Install `react-virtualized` using npm.
 
 ```shell
-npm install react-virtualized --save
+npm install @velusgautam/react-virtualized --save
 ```
 
 ES6, CommonJS, and UMD builds are available with each distribution.
@@ -103,16 +32,16 @@ For example:
 // The Table component ships with a few presentational styles as well.
 // They are optional, but if you want them you will need to also import the CSS file.
 // This only needs to be done once; probably during your application's bootstrapping process.
-import 'react-virtualized/styles.css';
+import '@velusgautam/react-virtualized/styles.css';
 
 // You can import any component you want as a named export from 'react-virtualized', eg
-import {Column, Table} from 'react-virtualized';
+import {Column, Table} from '@velusgautam/react-virtualized';
 
 // But if you only use a few react-virtualized components,
 // And you're concerned about increasing your application's bundle size,
 // You can directly import only the components you need, like so:
-import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
-import List from 'react-virtualized/dist/commonjs/List';
+import AutoSizer from '@velusgautam/react-virtualized/dist/commonjs/AutoSizer';
+import List from '@velusgautam/react-virtualized/dist/commonjs/List';
 ```
 
 Note webpack 4 makes this optimization itself, see the [documentation](https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free).
@@ -123,7 +52,7 @@ If the above syntax looks too cumbersome, or you import react-virtualized compon
 // Partial webpack.config.js
 {
   alias: {
-    'react-virtualized/List': 'react-virtualized/dist/es/List',
+    'react-virtualized/List': '@velusgautam/react-virtualized/dist/es/List',
   },
   ...rest
 }
@@ -241,13 +170,13 @@ Here are some great components built on top of react-virtualized:
 
 ## Contributions
 
-Use [GitHub issues](https://github.com/bvaughn/react-virtualized/issues) for requests.
+Use [GitHub issues](https://github.com/velusgautam/react-virtualized/issues) for requests.
 
-I actively welcome pull requests; learn how to [contribute](https://github.com/bvaughn/react-virtualized/blob/master/CONTRIBUTING.md).
+I actively welcome pull requests; learn how to [contribute](https://github.com/velusgautam/react-virtualized/blob/master/CONTRIBUTING.md).
 
 ## Changelog
 
-Changes are tracked in the [changelog](https://github.com/bvaughn/react-virtualized/blob/master/CHANGELOG.md).
+Changes are tracked in the [changelog](https://github.com/velusgautam/react-virtualized/blob/master/CHANGELOG.md).
 
 ## License
 

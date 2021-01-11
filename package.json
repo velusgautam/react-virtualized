@@ -3,7 +3,7 @@
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>,Velu S Gautam <i@velusgautam.com>",
   "user": "velusgautam",
-  "version": "9.23.1",
+  "version": "9.23.2",
   "homepage": "https://github.com/velusgautam/react-virtualized",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
